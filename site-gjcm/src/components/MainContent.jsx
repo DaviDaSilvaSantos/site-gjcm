@@ -127,7 +127,7 @@ export function MainContent() {
 
         <section className="projects-section section-wrap" id="projetos">
           <div className="section-kicker"><span>03</span><i /></div>
-          <div className="section-heading projects-heading"><div><span className="eyebrow">INICIATIVAS DO GRUPO</span><h2>Projetos que <em>florescem.</em></h2></div><p>Conheça as iniciativas que nascem da fé e se transformam em gestos concretos.</p></div>
+          <div className="section-heading projects-heading"><div><span className="eyebrow">INICIATIVAS DO GRUPO</span><h2><em>Projetos que florescem.</em></h2></div><p>Conheça as iniciativas que nascem da fé e se transformam em gestos concretos.</p></div>
           <div className="project-toolbar"><div className="project-search"><span aria-hidden="true">⌕</span><input value={query} onChange={(event) => setQuery(event.target.value)} aria-label="Pesquisar projetos" placeholder="Buscar projetos..." /></div>
             <select aria-label="Filtrar por categoria" value={filter} onChange={(event) => setFilter(event.target.value)}>{categories.map((category) => <option key={category}>{category}</option>)}</select>
             <button className="button button-red" onClick={() => { setEditing(null); setShowForm(true); }}>+ Adicionar projeto</button></div>

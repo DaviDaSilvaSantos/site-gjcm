@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const links = [
   ["Início", "#inicio"], ["Nossa essência", "#essencia"],
-  ["Atividades", "#atividades"], ["Projetos", "#projetos"], ["Contato", "#contato"],
+  ["Atividades", "#atividades"], ["Projetos", "#projetos"]
 ];
 
 export function Header() {
