@@ -265,7 +265,9 @@ Ao modificar o projeto:
 
 ## 📄 Licença
 
-Não foi identificada uma licença de distribuição específica na configuração atual do projeto. Antes de reutilizar, modificar ou redistribuir o código e os materiais visuais, defina a licença apropriada e confirme os direitos de uso dos recursos utilizados.
+Este projeto é distribuído sob a **Licença MIT**. Consulte o arquivo `LICENSE` incluído no repositório para ler os termos completos.
+
+A licença do código não substitui a verificação dos direitos de uso de imagens, logotipos, fontes e outros materiais de terceiros que possam integrar o projeto.
 
 ---
 
